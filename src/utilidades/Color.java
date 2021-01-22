@@ -23,7 +23,5 @@ public class Color {
     private final String CYAN="\033[36m"; 
     private final String WHITE="\033[37m";
     private final String RESET="\u001B[0m";
-
-    
     
 }
