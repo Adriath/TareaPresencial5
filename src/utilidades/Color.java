@@ -27,6 +27,18 @@ public class Color {
     
     // MÉTODOS
     
+    
+    /**
+     * Colorea indefinidamente en color negro.
+     * 
+     * @return tipo String. Devuelve el color negro.
+     */
+    
+    public static String negro(){
+        
+        return BLACK ;
+    }
+    
     /**
      * Colorea el texto en color negro.
      * 
@@ -42,11 +54,23 @@ public class Color {
     }
     
     /**
+     * Colorea indefinidamente en color rojo.
+     * 
+     * @return tipo String. Devuelve el color rojo.
+     */
+    
+    public static String rojo(){
+        
+        return RED ;
+    }
+    
+    /**
      * Colorea el texto en color rojo.
      * 
      * @param msg tipo String. Mensaje a colorear.
      * @return tipo String. Mensaje coloreado.
      */
+    
     public static String rojo(String msg){
         
         String mensajeUsuario = RED + msg + RESET ;
@@ -130,6 +154,16 @@ public class Color {
         String mensajeUsuario = WHITE + msg + RESET ;
         
         return mensajeUsuario;
+    }
+    
+    /**
+     * Restuara el color por defecto de la fuente.
+     * 
+     * @return tipo String. Devuelve la constante RESET.
+     */
+    public static String reset(){
+        
+        return RESET ;
     }
     
 }

@@ -36,10 +36,7 @@ public class IO_ES {
      */
     
     public static int leerInteger(){
-        
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
+                
         int numero = 0;
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
@@ -57,11 +54,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido."));
             }
             catch (Exception e){
 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido."));
             }
             
         } while (validador == false);
@@ -80,9 +77,6 @@ public class IO_ES {
     
     public static int leerInteger(String msg){
         
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
         int numero = 0;
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
@@ -100,11 +94,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido."));
             }
             catch (Exception e){
 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido."));
             }
             
         } while (validador == false);
@@ -125,9 +119,6 @@ public class IO_ES {
     
     public static int leerInteger(String msg, int min){
         
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
         int numero = 0;
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
@@ -144,7 +135,7 @@ public class IO_ES {
                 
                 if (numero < min) 
                 {
-                    System.out.println(rojo + "El número debe ser igual o mayor que " + min + reset);
+                    System.out.println(Color.rojo("El número debe ser igual o mayor que " + min));
                     validador = false ;
                 }
                 else
@@ -156,11 +147,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido."));
             }
             catch (Exception e){
 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido."));
             }
             
         } while (validador == false);
@@ -180,9 +171,6 @@ public class IO_ES {
      */
     public static int leerInteger(String msg, int min, int max){
         
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
         int numero = 0;
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
@@ -199,12 +187,12 @@ public class IO_ES {
                 
                 if (numero < min) 
                 {
-                    System.out.println(rojo + "El número debe ser igual o mayor que " + min + reset);
+                    System.out.println(Color.rojo("El número debe ser igual o mayor que " + min));
                     validador = false ;
                 }
                 else if (numero > max) {
                     
-                    System.out.println(rojo + "El número debe ser igual o menor que " + max + reset);
+                    System.out.println(Color.rojo("El número debe ser igual o menor que " + max));
                     validador = false ;
                 }
                 else
@@ -216,11 +204,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido."));
             }
             catch (Exception e){
 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido."));
             }
             
         } while (validador == false);
@@ -242,9 +230,6 @@ public class IO_ES {
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
         
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
         do 
         {
             
@@ -258,11 +243,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(rojo + "\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto." + reset);
+                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto."));
             }
             catch (Exception e){
                 
-                System.out.println(rojo + "\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido." + reset);
+                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
             }
             
         } while (validador == false);
@@ -285,9 +270,6 @@ public class IO_ES {
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
         
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
         do 
         {
             
@@ -301,11 +283,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(rojo + "\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto." + reset);
+                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto."));
             }
             catch (Exception e){
                 
-                System.out.println(rojo + "\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido." + reset);
+                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
             }
             
         } while (validador == false);
@@ -329,9 +311,6 @@ public class IO_ES {
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
         
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
         do 
         {
             
@@ -344,7 +323,7 @@ public class IO_ES {
                 
                 if (numero < min) 
                 {
-                    System.out.println(rojo + "El número debe ser igual o mayor que " + min + reset);
+                    System.out.println(Color.rojo("El número debe ser igual o mayor que " + min));
                     validador = false ;
                 }
                 else
@@ -355,11 +334,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(rojo + "\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto." + reset);
+                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto."));
             }
             catch (Exception e){
                 
-                System.out.println(rojo + "\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido." + reset);
+                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
             }
             
         } while (validador == false);
@@ -380,10 +359,7 @@ public class IO_ES {
         long numero = 0 ;
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
-        
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
+                
         do 
         {
             
@@ -397,11 +373,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Has introducido una letra o un número no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido."));
             }
             catch (Exception e){
                 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
             }
             
         } while (validador == false);
@@ -423,10 +399,7 @@ public class IO_ES {
         long numero = 0 ;
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
-        
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
+                
         do 
         {
             
@@ -440,11 +413,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Has introducido una letra o un número no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido."));
             }
             catch (Exception e){
                 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
             }
             
         } while (validador == false);
@@ -465,10 +438,7 @@ public class IO_ES {
         double numero = 0 ;
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
-        
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
+                
         do 
         {
             
@@ -482,11 +452,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto."));
             }
             catch (Exception e){
                 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
             }
             
         } while (validador == false);
@@ -508,10 +478,7 @@ public class IO_ES {
         double numero = 0 ;
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
-        
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
+                
         do 
         {
             
@@ -525,11 +492,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto."));
             }
             catch (Exception e){
                 
-                System.out.println(rojo + "¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido." + reset);
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
             }
             
         } while (validador == false);
@@ -586,9 +553,6 @@ public class IO_ES {
     
     public static String leerCadena(String msg, int longitud){
         
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
         String mensajeUsuario = "" ;
         boolean validador = false ;
                 
@@ -605,7 +569,7 @@ public class IO_ES {
             }
             else
             {
-                System.out.println(rojo + "La cadena debe tener una longitud de " + longitud + " caracteres." + reset);
+                System.out.println(Color.rojo("La cadena debe tener una longitud de " + longitud + " caracteres."));
             }
             
         } while (!validador);
@@ -622,9 +586,6 @@ public class IO_ES {
      */
     
     public static char leerCaracter(){
-        
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
         
         char caracter = 'a';
         boolean validador = false ;
@@ -643,7 +604,7 @@ public class IO_ES {
                 }
                 else
                 {
-                    System.out.println(rojo + "Introduce tan sólo un caracter." + reset);
+                    System.out.println(Color.rojo("Introduce tan sólo un caracter."));
                     validador = false ;
                 }
             
@@ -663,10 +624,7 @@ public class IO_ES {
      */
     
     public static char leerCaracter(String msg){
-        
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
+                
         char caracter = 'a';
         boolean validador = false ;
         Scanner teclado = new Scanner(System.in);
@@ -684,7 +642,7 @@ public class IO_ES {
                 }
                 else
                 {
-                    System.out.println(rojo + "Introduce tan sólo un caracter." + reset);
+                    System.out.println(Color.rojo("Introduce tan sólo un caracter."));
                     validador = false ;
                 }
             
@@ -703,10 +661,7 @@ public class IO_ES {
      */
     
     public static boolean leerBooleano(){
-        
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
+                
         int opcion = 0;
         boolean validador = false ;
         boolean resultado = false ;
@@ -732,12 +687,12 @@ public class IO_ES {
             }
             catch (InputMismatchException e)
             {
-                System.out.println(rojo + "Puede que hayas introducido una letra." + reset);
+                System.out.println(Color.rojo("Puede que hayas introducido una letra."));
                 teclado.nextLine() ;
             }
             catch (Exception e)
             {
-                System.out.println(rojo + "Has introducido un valor no permitido." + reset);
+                System.out.println(Color.rojo("Has introducido un valor no permitido."));
                 teclado.nextLine() ;
             }
             
@@ -759,7 +714,7 @@ public class IO_ES {
                     
                 default:
                     
-                    System.out.println(rojo + "Elige una opción válida: sí/no.\n" + reset);
+                    System.out.println(Color.rojo("Elige una opción válida: sí/no.\n"));
             }
             
         } while (!validador);
@@ -777,10 +732,7 @@ public class IO_ES {
      */
     
     public static boolean leerBooleano(String msg){
-        
-        String rojo="\033[31m";
-        String reset="\u001B[0m";
-        
+                
         String cadena ;
         boolean validador = false ;
         boolean resultado = false ;
@@ -805,7 +757,7 @@ public class IO_ES {
             }
             else
             {
-                System.out.println(rojo + "Elige sí/no. No se aceptan tildes." + reset);
+                System.out.println(Color.rojo("Elige sí/no. No se aceptan tildes."));
             }
             
         } while (!validador);
@@ -838,11 +790,5 @@ public class IO_ES {
         System.out.println(msg);
        
     }
-    
-    public static void main(String[] args) {
         
-        System.out.println(Color.azul("Esto debería ser azul"));
-        System.out.println("esto debería ser negro");
-    }
-    
 }
