@@ -839,4 +839,10 @@ public class IO_ES {
        
     }
     
+    public static void main(String[] args) {
+        
+        System.out.println(Color.azul("Esto debería ser azul"));
+        System.out.println("esto debería ser negro");
+    }
+    
 }
