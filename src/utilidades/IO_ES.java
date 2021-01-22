@@ -54,11 +54,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido."));
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido."));
             }
             catch (Exception e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido."));
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido."));
             }
             
         } while (validador == false);
@@ -94,11 +94,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido."));
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido."));
             }
             catch (Exception e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido."));
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido."));
             }
             
         } while (validador == false);
@@ -147,11 +147,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido."));
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido."));
             }
             catch (Exception e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido."));
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido."));
             }
             
         } while (validador == false);
@@ -204,11 +204,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido uua letra u otro carácter no válido."));
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido."));
             }
             catch (Exception e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido uua letra u otro carácter no válido."));
+                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido."));
             }
             
         } while (validador == false);

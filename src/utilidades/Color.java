@@ -79,6 +79,17 @@ public class Color {
     }
     
     /**
+     * Colorea indefinidamente en color verde.
+     * 
+     * @return tipo String. Devuelve el color verde.
+     */
+    
+    public static String verde(){
+        
+        return GREEN ;
+    }
+    
+    /**
      * Colorea el texto en color verde.
      * 
      * @param msg tipo String. Mensaje a colorear.
@@ -89,6 +100,17 @@ public class Color {
         String mensajeUsuario = GREEN + msg + RESET ;
         
         return mensajeUsuario;
+    }
+    
+    /**
+     * Colorea indefinidamente en color amarillo.
+     * 
+     * @return tipo String. Devuelve el color amarillo.
+     */
+    
+    public static String amarillo(){
+        
+        return YELLOW ;
     }
     
     /**
@@ -105,6 +127,17 @@ public class Color {
     }
     
     /**
+     * Colorea indefinidamente en color azul.
+     * 
+     * @return tipo String. Devuelve el color azul.
+     */
+    
+    public static String azul(){
+        
+        return BLUE ;
+    }
+    
+    /**
      * Colorea el texto en color azul.
      * 
      * @param msg tipo String. Mensaje a colorear.
@@ -115,6 +148,17 @@ public class Color {
         String mensajeUsuario = BLUE + msg + RESET ;
         
         return mensajeUsuario;
+    }
+    
+    /**
+     * Colorea indefinidamente en color púrpura.
+     * 
+     * @return tipo String. Devuelve el color púrpura.
+     */
+    
+    public static String purple(){
+        
+        return PURPLE ;
     }
     
     /**
@@ -131,6 +175,17 @@ public class Color {
     }
     
     /**
+     * Colorea indefinidamente en color cyan.
+     * 
+     * @return tipo String. Devuelve el color cyan.
+     */
+    
+    public static String cyan(){
+        
+        return CYAN ;
+    }
+    
+    /**
      * Colorea el texto en color cyan.
      * 
      * @param msg tipo String. Mensaje a colorear.
@@ -141,6 +196,17 @@ public class Color {
         String mensajeUsuario = CYAN + msg + RESET ;
         
         return mensajeUsuario;
+    }
+    
+    /**
+     * Colorea indefinidamente en color blanco.
+     * 
+     * @return tipo String. Devuelve el color blanco.
+     */
+    
+    public static String blanco(){
+        
+        return WHITE ;
     }
     
     /**
