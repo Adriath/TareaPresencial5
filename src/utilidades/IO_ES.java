@@ -54,11 +54,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido." + "\n"));
             }
             catch (Exception e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido." + "\n"));
             }
             
         } while (validador == false);
@@ -94,11 +94,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido." + "\n"));
             }
             catch (Exception e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido." + "\n"));
             }
             
         } while (validador == false);
@@ -135,7 +135,7 @@ public class IO_ES {
                 
                 if (numero < min) 
                 {
-                    System.out.println(Color.rojo("El número debe ser igual o mayor que " + min));
+                    System.out.println("\n" + Color.rojo("El número debe ser igual o mayor que " + min) + "\n");
                     validador = false ;
                 }
                 else
@@ -147,11 +147,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido.") + "\n");
             }
             catch (Exception e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido.") + "\n");
             }
             
         } while (validador == false);
@@ -187,12 +187,12 @@ public class IO_ES {
                 
                 if (numero < min) 
                 {
-                    System.out.println(Color.rojo("El número debe ser igual o mayor que " + min));
+                    System.out.println("\n" + Color.rojo("El número debe ser igual o mayor que " + min) + "\n");
                     validador = false ;
                 }
                 else if (numero > max) {
                     
-                    System.out.println(Color.rojo("El número debe ser igual o menor que " + max));
+                    System.out.println("\n" + Color.rojo("El número debe ser igual o menor que " + max) + "\n");
                     validador = false ;
                 }
                 else
@@ -204,11 +204,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra u otro carácter no válido.") + "\n");
             }
             catch (Exception e){
 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra u otro carácter no válido.") + "\n");
             }
             
         } while (validador == false);
@@ -243,11 +243,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto." + "\n"));
             }
             catch (Exception e){
                 
-                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."+ "\n"));
             }
             
         } while (validador == false);
@@ -256,7 +256,7 @@ public class IO_ES {
         return numero ;
         
     }
-    
+       
     /**
      * Pide al usuario mediante un mensaje personalizado que introduzca un número real por teclado.
      * 
@@ -283,11 +283,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto."));
+                System.out.println("\n" + Color.rojo("\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto.") + "\n");
             }
             catch (Exception e){
                 
-                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
+                System.out.println("\n" + Color.rojo("\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido.") + "\n");
             }
             
         } while (validador == false);
@@ -323,7 +323,7 @@ public class IO_ES {
                 
                 if (numero < min) 
                 {
-                    System.out.println(Color.rojo("El número debe ser igual o mayor que " + min));
+                    System.out.println("\n" + Color.rojo("El número debe ser igual o mayor que " + min) + "\n");
                     validador = false ;
                 }
                 else
@@ -334,11 +334,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto."));
+                System.out.println("\n" + Color.rojo("\n¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto.") + "\n");
             }
             catch (Exception e){
                 
-                System.out.println(Color.rojo("\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
+                System.out.println("\n" + Color.rojo("\n¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido.") + "\n");
             }
             
         } while (validador == false);
@@ -373,11 +373,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido.") + "\n");
             }
             catch (Exception e){
                 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido.") + "\n");
             }
             
         } while (validador == false);
@@ -413,11 +413,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido.") + "\n");
             }
             catch (Exception e){
                 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido.") + "\n");
             }
             
         } while (validador == false);
@@ -452,11 +452,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto.") + "\n");
             }
             catch (Exception e){
                 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido.") + "\n");
             }
             
         } while (validador == false);
@@ -492,11 +492,11 @@ public class IO_ES {
             }
             catch (NumberFormatException e){
                 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Has introducido una letra o un número no válido. La coma debe ser un punto.") + "\n");
             }
             catch (Exception e){
                 
-                System.out.println(Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido."));
+                System.out.println("\n" + Color.rojo("¯\\_(ツ)_/¯ Puede que hayas introducido una letra o un número no válido.") + "\n");
             }
             
         } while (validador == false);
@@ -569,7 +569,7 @@ public class IO_ES {
             }
             else
             {
-                System.out.println(Color.rojo("La cadena debe tener una longitud de " + longitud + " caracteres."));
+                System.out.println("\n" + Color.rojo("La cadena debe tener una longitud de " + longitud + " caracteres.") + "\n");
             }
             
         } while (!validador);
@@ -604,7 +604,7 @@ public class IO_ES {
                 }
                 else
                 {
-                    System.out.println(Color.rojo("Introduce tan sólo un caracter."));
+                    System.out.println("\n" + Color.rojo("Introduce tan sólo un caracter.") + "\n");
                     validador = false ;
                 }
             
@@ -642,7 +642,7 @@ public class IO_ES {
                 }
                 else
                 {
-                    System.out.println(Color.rojo("Introduce tan sólo un caracter."));
+                    System.out.println("\n" + Color.rojo("Introduce tan sólo un caracter.") + "\n");
                     validador = false ;
                 }
             
@@ -687,12 +687,12 @@ public class IO_ES {
             }
             catch (InputMismatchException e)
             {
-                System.out.println(Color.rojo("Puede que hayas introducido una letra."));
+                System.out.println("\n" + Color.rojo("Puede que hayas introducido una letra.") + "\n");
                 teclado.nextLine() ;
             }
             catch (Exception e)
             {
-                System.out.println(Color.rojo("Has introducido un valor no permitido."));
+                System.out.println("\n" + Color.rojo("Has introducido un valor no permitido.") + "\n");
                 teclado.nextLine() ;
             }
             
@@ -714,7 +714,7 @@ public class IO_ES {
                     
                 default:
                     
-                    System.out.println(Color.rojo("Elige una opción válida: sí/no.\n"));
+                    System.out.println("\n" + Color.rojo("Elige una opción válida: sí/no.") + "\n");
             }
             
         } while (!validador);
@@ -722,6 +722,10 @@ public class IO_ES {
         
         return  resultado;
         
+    }
+    
+    public static void main(String[] args) {
+        System.out.println(leerBooleano());
     }
     
      /**
